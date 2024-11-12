@@ -28,14 +28,12 @@
 </style>
 
 <div class="header">
-  <div>
     # Nom Prénom
     **Adresse :** 123 Rue de l'Exemple, 75001 Paris, France  
     **Téléphone :** +33 1 23 45 67 89  
     **Email :** exemple@email.com  
     **LinkedIn :** [linkedin.com/in/votreprofil](https://linkedin.com/in/votreprofil)  
     **GitHub :** [github.com/votreprofil](https://github.com/votreprofil)
-  </div>
   <div class="contact-info">
     <img src="votre-photo.jpg" alt="Photo de profil">
   </div>
