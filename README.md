@@ -1,39 +1,51 @@
 <style>
-  /* Centre la page et donne une largeur max */
+  /* Centre la page et limite la largeur pour un meilleur rendu */
   body {
-    max-width: 75%;
+    max-width: 800px;
     margin: auto;
     font-family: Arial, sans-serif;
   }
-  /* Mise en forme pour l'en-tête */
+  /* Style de l'en-tête */
   .header {
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 20px;
+    padding-bottom: 10px;
     border-bottom: 2px solid #4a4a4a;
-    padding-bottom: 15px;
   }
+  /* Informations personnelles */
+  .personal-info {
+    line-height: 1.6;
+  }
+  /* Mise en forme de l'image */
   .header img {
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
   }
+  /* Titre pour le nom */
+  .name {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #333;
+  }
+  /* Contact aligné à droite */
   .contact-info {
     text-align: right;
-  }
-  h1, h2 {
-    color: #4a4a4a;
   }
 </style>
 
 <div class="header">
-    # Nom Prénom
+  <div class="personal-info">
+    <div class="name">Nom Prénom</div>
     **Adresse :** 123 Rue de l'Exemple, 75001 Paris, France  
     **Téléphone :** +33 1 23 45 67 89  
     **Email :** exemple@email.com  
     **LinkedIn :** [linkedin.com/in/votreprofil](https://linkedin.com/in/votreprofil)  
     **GitHub :** [github.com/votreprofil](https://github.com/votreprofil)
+  </div>
   <div class="contact-info">
     <img src="votre-photo.jpg" alt="Photo de profil">
   </div>
