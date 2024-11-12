@@ -40,16 +40,17 @@
 <div class="header">
   <div class="personal-info">
     <div class="name">Nom Prénom</div>
-    **Adresse :** 123 Rue de l'Exemple, 75001 Paris, France  
-    **Téléphone :** +33 1 23 45 67 89  
-    **Email :** exemple@email.com  
-    **LinkedIn :** [linkedin.com/in/votreprofil](https://linkedin.com/in/votreprofil)  
-    **GitHub :** [github.com/votreprofil](https://github.com/votreprofil)
+    <p><strong>Adresse :</strong> 123 Rue de l'Exemple, 75001 Paris, France</p>
+    <p><strong>Téléphone :</strong> +33 1 23 45 67 89</p>
+    <p><strong>Email :</strong> exemple@email.com</p>
+    <p><strong>LinkedIn :</strong> <a href="https://linkedin.com/in/votreprofil">linkedin.com/in/votreprofil</a></p>
+    <p><strong>GitHub :</strong> <a href="https://github.com/votreprofil">github.com/votreprofil</a></p>
   </div>
   <div class="contact-info">
     <img src="votre-photo.jpg" alt="Photo de profil">
   </div>
 </div>
+
 
 ---
 
