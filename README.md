@@ -1,10 +1,45 @@
-# Nom Prénom
+<style>
+  /* Centre la page et donne une largeur max */
+  body {
+    max-width: 800px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+  }
+  /* Mise en forme pour l'en-tête */
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #4a4a4a;
+    padding-bottom: 15px;
+  }
+  .header img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+  }
+  .contact-info {
+    text-align: right;
+  }
+  h1, h2 {
+    color: #4a4a4a;
+  }
+</style>
 
-**Adresse :** 123 Rue de l'Exemple, 75001 Paris, France  
-**Téléphone :** +33 1 23 45 67 89  
-**Email :** exemple@email.com  
-**LinkedIn :** [linkedin.com/in/votreprofil](https://linkedin.com/in/votreprofil)  
-**GitHub :** [github.com/votreprofil](https://github.com/votreprofil)
+<div class="header">
+  <div>
+    # Nom Prénom
+    **Adresse :** 123 Rue de l'Exemple, 75001 Paris, France  
+    **Téléphone :** +33 1 23 45 67 89  
+    **Email :** exemple@email.com  
+    **LinkedIn :** [linkedin.com/in/votreprofil](https://linkedin.com/in/votreprofil)  
+    **GitHub :** [github.com/votreprofil](https://github.com/votreprofil)
+  </div>
+  <div class="contact-info">
+    <img src="votre-photo.jpg" alt="Photo de profil">
+  </div>
+</div>
 
 ---
 
