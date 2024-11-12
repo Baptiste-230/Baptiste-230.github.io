@@ -63,19 +63,16 @@
 
 ## 🎓 Formation
 
-**Nom de l'École / Université**  
-_Programme ou diplôme, Spécialisation_  
-Dates de fréquentation | Ville, Pays
+**Lycée Sophie Berthelot**  
+_Baccalauréat Scientifique, Mention Assez Bien_  
+Obtention : 2022 | Calais, France
 
-- Mention spéciale (si applicable)
-- Résultat ou moyenne (facultatif)
+**Institut Universitaire de Technologie (IUT) de Calais**  
+_Bachelor Universitaire de Technologie (BUT) en Informatique_  
+En cours depuis 2022 | Calais, France
 
-**Nom de l'École / Université**  
-_Programme ou diplôme, Spécialisation_  
-Dates de fréquentation | Ville, Pays
-
-- Autres mentions, prix, distinctions
-- Exemple de projet ou de recherche pertinent(e)
+- Modules clés : Programmation, Réseaux, Base de données, Développement web.
+- Projets pratiques réalisés dans le cadre du BUT (exemples à mentionner si pertinents).
 
 ---
 
