@@ -43,13 +43,20 @@
     <p><strong>Adresse :</strong> 123 Rue de l'Exemple, 75001 Paris, France</p>
     <p><strong>Téléphone :</strong> +33 1 23 45 67 89</p>
     <p><strong>Email :</strong> exemple@email.com</p>
-    <p><strong>LinkedIn :</strong> <a href="https://linkedin.com/in/votreprofil">linkedin.com/in/votreprofil</a></p>
-    <p><strong>GitHub :</strong> <a href="https://github.com/votreprofil">github.com/votreprofil</a></p>
+    <p>
+      <a href="https://linkedin.com/in/votreprofil" target="_blank">
+        <img src="linkedin-icon.png" alt="LinkedIn" style="width:20px; height:20px; vertical-align:middle; margin-right:5px;">
+      </a>
+      <a href="https://github.com/votreprofil" target="_blank">
+        <img src="github-icon.png" alt="GitHub" style="width:20px; height:20px; vertical-align:middle;">
+      </a>
+    </p>
   </div>
   <div class="contact-info">
-    <img src="votre-photo.jpg" alt="Photo de profil">
+    <img src="votre-photo.jpg" alt="Photo de profil" style="width:120px; height:120px; border-radius:50%;">
   </div>
 </div>
+
 
 
 ---
