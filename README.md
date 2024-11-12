@@ -1,7 +1,7 @@
 <style>
   /* Centre la page et donne une largeur max */
   body {
-    max-width: 1200px;
+    max-width: 75%;
     margin: auto;
     font-family: Arial, sans-serif;
   }
