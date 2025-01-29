@@ -52,12 +52,11 @@
 
   <div class="header">
     <div class="personal-info">
-      <div class="name">Nom Prénom</div>
-      <p><strong>Adresse :</strong> 123 Rue de l'Exemple, 75001 Paris, France</p>
-      <p><strong>Téléphone :</strong> +33 1 23 45 67 89</p>
-      <p><strong>Email :</strong> exemple@email.com</p>
+      <div class="name">DUMILLY Baptiste</div>
+      <p><strong>Téléphone :</strong> +33 7 68 63 71 23</p>
+      <p><strong>Email :</strong> baptistedumilly@gmail.com</p>
       <p>
-        <a href="https://linkedin.com/in/votreprofil" target="_blank">
+        <a href="https://www.linkedin.com/in/baptiste-d-8b1290290/" target="_blank">
           <img src="linkedin-icon.png" alt="LinkedIn" style="width:20px; height:20px; vertical-align:middle; margin-right:5px;">
         </a>
         <a href="https://github.com/votreprofil" target="_blank">
@@ -66,7 +65,7 @@
       </p>
     </div>
     <div class="contact-info">
-      <img src="votre-photo.jpg" alt="Photo de profil" style="width:120px; height:120px; border-radius:50%;">
+      <img src="photo.jpg" alt="Photo de profil" style="width:120px; height:120px; border-radius:50%;">
     </div>
   </div>
 
