@@ -1,3 +1,5 @@
+# Curriculum Vitae en ligne
+
 <style>
   /* Centre la page et limite la largeur pour un meilleur rendu */
   body {
@@ -56,8 +58,6 @@
     <img src="votre-photo.jpg" alt="Photo de profil" style="width:120px; height:120px; border-radius:50%;">
   </div>
 </div>
-
-
 
 ---
 
@@ -123,3 +123,4 @@ Explication du projet, des objectifs et des résultats obtenus.
 ## 👥 Références
 
 Disponibles sur demande.
+
