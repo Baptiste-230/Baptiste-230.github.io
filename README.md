@@ -102,6 +102,18 @@
     .download-cv a:hover {
       background-color: #2980b9;
     }
+
+    /* Style pour l'aperçu PDF */
+    .pdf-preview {
+      margin: 20px 0;
+      text-align: center;
+    }
+
+    .pdf-preview iframe {
+      width: 100%;
+      height: 600px;
+      border: none;
+    }
   </style>
 </head>
 <body>
@@ -192,13 +204,15 @@
     <li>Gestion efficace des connexions utilisateur</li>
   </ul>
 
-  <div class="download-cv">
-    <a href="./cv_baptiste_dumilly.pdf" download>Télécharger mon CV</a>
+  <hr>
+
+  <h2>Aperçu de mon CV</h2>
+  <div class="pdf-preview">
+    <iframe src="cv_baptiste_dumilly.pdf"></iframe>
   </div>
 
-  <footer>
-    <p>&copy; 2025 Baptiste Dumilly. Tous droits réservés.</p>
-  </footer>
-
+  <div class="download-cv">
+    <a href="cv_baptiste_dumilly.pdf" download>Télécharger mon CV</a>
+  </div>
 </body>
 </html>
