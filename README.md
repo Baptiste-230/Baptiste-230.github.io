@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
@@ -81,6 +82,25 @@
       margin-top: 50px;
       font-size: 0.9em;
       color: #7f8c8d;
+    }
+
+    /* Bouton de téléchargement */
+    .download-cv {
+      display: block;
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .download-cv a {
+      background-color: #3498db;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .download-cv a:hover {
+      background-color: #2980b9;
     }
   </style>
 </head>
@@ -171,14 +191,3 @@
     <li>Technologies utilisées : HTML, CSS, JavaScript, Socket.io</li>
     <li>Gestion efficace des connexions utilisateur</li>
   </ul>
-
-  <hr>
-
-  <h2>👥 Références</h2>
-  <p>Disponibles sur demande.</p>
-
-  <footer>
-    <p>Ce CV a été généré et optimisé en HTML et CSS pour une présentation en ligne efficace.</p>
-  </footer>
-</body>
-</html>
