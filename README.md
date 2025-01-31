@@ -3,14 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Curriculum Vitae en ligne</title>
+  <title>Curriculum Vitae en ligne - Baptiste Dumilly</title>
   <style>
     /* Centre la page et limite la largeur pour un meilleur rendu */
     body {
       max-width: 800px;
       margin: auto;
-      font-family: Arial, sans-serif;
+      font-family: 'Arial', sans-serif;
+      color: #2c3e50;
+      line-height: 1.6;
     }
+
     /* Style de l'en-tête */
     .header {
       display: flex;
@@ -20,10 +23,12 @@
       padding-bottom: 10px;
       border-bottom: 2px solid #4a4a4a;
     }
+
     /* Informations personnelles */
     .personal-info {
       line-height: 1.6;
     }
+
     /* Mise en forme de l'image */
     .header img {
       border-radius: 50%;
@@ -31,45 +36,82 @@
       height: 120px;
       object-fit: cover;
     }
+
     /* Titre pour le nom */
     .name {
-      font-size: 1.8em;
+      font-size: 2em;
       font-weight: bold;
       color: #333;
     }
+
     /* Contact aligné à droite */
     .contact-info {
       text-align: right;
     }
+
     /* Section titles */
     h2 {
       color: #2c3e50;
       margin-top: 40px;
     }
+
+    /* Liens avec icônes */
+    .social-icons img {
+      width: 20px;
+      height: 20px;
+      vertical-align: middle;
+      margin-right: 5px;
+    }
+
+    /* Style des listes */
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+
+    /* Ligne de séparation personnalisée */
+    hr {
+      border: none;
+      border-top: 1px solid #d1d1d1;
+      margin: 30px 0;
+    }
+
+    /* Pied de page */
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      font-size: 0.9em;
+      color: #7f8c8d;
+    }
   </style>
 </head>
 <body>
-
   <div class="header">
     <div class="personal-info">
       <div class="name">DUMILLY Baptiste</div>
       <p><strong>Téléphone :</strong> +33 7 68 63 71 23</p>
-      <p><strong>Email :</strong> baptistedumilly@gmail.com</p>
-      <p>
+      <p><strong>Email :</strong> <a href="mailto:baptistedumilly@gmail.com">baptistedumilly@gmail.com</a></p>
+      <div class="social-icons">
         <a href="https://www.linkedin.com/in/baptiste-d-8b1290290/" target="_blank">
-          <img src="linkedin-icon.png" alt="LinkedIn" style="width:20px; height:20px; vertical-align:middle; margin-right:5px;">
+          <img src="linkedin-icon.png" alt="LinkedIn">LinkedIn
         </a>
-        <a href="https://github.com/votreprofil" target="_blank">
-          <img src="github-icon.png" alt="GitHub" style="width:20px; height:20px; vertical-align:middle;">
+        <br>
+        <a href="https://github.com/Baptiste-230" target="_blank">
+          <img src="github-icon.png" alt="GitHub">GitHub
         </a>
-      </p>
+      </div>
     </div>
     <div class="contact-info">
-      <img src="photo.jpg" alt="Photo de profil" style="width:120px; height:120px; border-radius:50%;">
+      <img src="photo.jpg" alt="Photo de profil">
     </div>
   </div>
 
   <hr>
+
+  <h2>Qui suis-je ?</h2>
+  <p>Je m’appelle Baptiste, étudiant de 19 ans, actuellement en deuxième année de BUT informatique, parcours « déploiement d’applications communicantes et sécurisées » à l’IUT de Calais. Passionné par l’informatique depuis mes cours de NSI au lycée, j’ai développé une affinité particulière pour les réseaux et la cybersécurité.</p>
+  <p>En dehors de mes études, je joue du piano et pratique le dessin en autodidacte. J’apprécie également la lecture (romans et mangas) et les jeux en coopération en ligne. J’aime aussi aider mes amis sur leurs projets de code et créer des petits programmes pour m’amuser.</p>
+  <p>Je suis une personne motivée, autonome et curieuse, toujours prête à apprendre et à aider les autres.</p>
 
   <h2>🎓 Formation</h2>
   <p><strong>Lycée Sophie Berthelot</strong><br>
@@ -81,7 +123,7 @@
   En cours depuis 2022 | Calais, France</p>
   <ul>
     <li>Modules clés : Programmation, Réseaux, Base de données, Développement web.</li>
-    <li>Projets pratiques réalisés dans le cadre du BUT (exemples à mentionner si pertinents).</li>
+    <li>Projets pratiques réalisés, dont des applications web et scripts réseau.</li>
   </ul>
 
   <hr>
@@ -92,7 +134,7 @@
   Dates d’emploi | Ville, Pays</p>
   <ul>
     <li>Résumé des tâches principales et responsabilités.</li>
-    <li>Exemple de réalisation ou résultat mesurable : augmentation de X%, réduction de Y%, etc.</li>
+    <li>Exemple de réalisation ou résultat mesurable.</li>
     <li>Utilisation d’outils/technologies spécifiques.</li>
   </ul>
 
@@ -117,18 +159,18 @@
   <hr>
 
   <h2>🏆 Projets</h2>
-  <h3>Nom du projet</h3>
-  <p>Brève description du projet et de son objectif.</p>
+  <h3>Application de gestion des tâches</h3>
+  <p>Application web permettant de créer, modifier et suivre des tâches personnelles.</p>
   <ul>
-    <li>Technologies utilisées : Python, TensorFlow, SQL</li>
-    <li>Exemple de réalisation ou impact mesurable</li>
+    <li>Technologies utilisées : Python, Flask, PostgreSQL</li>
+    <li>Optimisation des requêtes pour une réponse rapide</li>
   </ul>
 
-  <h3>Nom du projet</h3>
-  <p>Explication du projet, des objectifs et des résultats obtenus.</p>
+  <h3>Plateforme de chat en temps réel</h3>
+  <p>Application web permettant aux utilisateurs de discuter en temps réel.</p>
   <ul>
-    <li>Technologies utilisées : HTML, CSS, JavaScript</li>
-    <li>Impact ou résultat notable</li>
+    <li>Technologies utilisées : HTML, CSS, JavaScript, Socket.io</li>
+    <li>Gestion efficace des connexions utilisateur</li>
   </ul>
 
   <hr>
@@ -136,6 +178,8 @@
   <h2>👥 Références</h2>
   <p>Disponibles sur demande.</p>
 
+  <footer>
+    <p>Ce CV a été généré et optimisé en HTML et CSS pour une présentation en ligne efficace.</p>
+  </footer>
 </body>
 </html>
-
