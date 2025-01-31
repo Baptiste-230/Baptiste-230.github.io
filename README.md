@@ -193,7 +193,7 @@
   </ul>
 
   <div class="download-cv">
-    <a href="cv_baptiste_dumilly.pdf" download>Télécharger mon CV</a>
+    <a href="./cv_baptiste_dumilly.pdf" download>Télécharger mon CV</a>
   </div>
 
   <footer>
