@@ -191,3 +191,14 @@
     <li>Technologies utilisées : HTML, CSS, JavaScript, Socket.io</li>
     <li>Gestion efficace des connexions utilisateur</li>
   </ul>
+
+  <div class="download-cv">
+    <a href="cv_baptiste_dumilly.pdf" download>Télécharger mon CV</a>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Baptiste Dumilly. Tous droits réservés.</p>
+  </footer>
+
+</body>
+</html>
